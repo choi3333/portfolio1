@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SDSamliphopangche_Basic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, ul, li, p, ol, li, fieldset, table, th, tr, td{
+    margin:0; padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.clear::after{
+    clear:both;
+    content: "";
+    display: block;
+}
+
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "NanumSquare_ac", sans-serif;;
+}
+
+h1{
+    font-family: "SDSamliphopangche_Outline",sans-serif;
+}
+
+h2{
+    font-family:"SDSamliphopangche_Basic",sans-serif;
+}
+img, fieldset{
+    vertical-align: top;
+}
